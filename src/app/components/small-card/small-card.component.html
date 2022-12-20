@@ -2,11 +2,18 @@
     <div class="container_small-card-content">
         <div class="small-card_photo">
             <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNyg8DH0XGrW_jA3EWSSI9hhcRP-5thysLDxw7tsAHJ5ZEeMFpSEoatqZOSu0W3UAzVMw&usqp=CAU"
+            src="{{ photoCover }}"
             alt="photo">
         </div>
-        <div class="small-card_title">
-                <h1>small-card works!</h1>
+        <div class="small-card_noticia">
+            <div class="small-card_title">
+                    <h1>{{ cardTitle }}</h1>
+            </div>
+            <div class="small-card-description">
+                <p>
+                    {{ cardDescription}}
+                </p>
+            </div>
         </div>
     </div>
     <div class="container_small-card_line">
