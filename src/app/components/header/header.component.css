@@ -1,0 +1,11 @@
+.header-menu-bar{
+    display: flex;
+}
+.header-menu-bar > ul{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.header-menu-bar > ul > li{
+    list-style: none;
+    margin: 0px 20px 0px 0px;
+}
