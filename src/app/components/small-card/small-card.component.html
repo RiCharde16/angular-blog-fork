@@ -7,7 +7,9 @@
         </div>
         <div class="small-card_noticia">
             <div class="small-card_title">
-                    <h1>{{ cardTitle }}</h1>
+                    <a [routerLink]="['content',Id]">
+                        <h1>{{ cardTitle }}</h1>
+                    </a>
             </div>
             <div class="small-card-description">
                 <p>
