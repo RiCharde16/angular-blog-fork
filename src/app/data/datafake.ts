@@ -10,7 +10,7 @@ export const dataFake = [
     {
         'id': '2',
         'photoCover': 'https://miro.medium.com/max/1400/0*1V_xALlt1BCKvFBW.jpeg',
-        'title':'React VC Angular',
+        'title':'React VS Angular',
         'description': 'React ou Angular? Qual o melhor framework do momento? criado pelos gigantes da tecnoliga Facebook é Google'
     },
     {
